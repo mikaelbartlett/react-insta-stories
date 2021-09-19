@@ -64,6 +64,7 @@ export const renderer: Renderer = ({ story, action, isPaused, config, messageHan
                     muted={muted}
                     autoPlay
                     webkit-playsinline="true"
+                    poster="noposter"
                 />
                 {!loaded && (
                     <div
